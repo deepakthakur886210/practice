@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+}
+
+.box-1 {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.box-2 {
+    width: 100%;
+    justify-content: center;
+}
+
+.box-3 {
+    width: 100%;
+}
+
+
+#red {
+    background-color: red;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#black {
+    background-color: black;
+}
+
+#green {
+    background-color: green;
+}
+
+#yellow {
+    background-color: yellow;
+}
+.inner-box {
+    height: 20vh;
+}
+
+@media(min-width:915px) {
+    .box {
+        display: flex;
+    }
+
+    .inner-box {
+        width: 33.333%;
+        height: 33.33vh;
+    }
+
+
+}
